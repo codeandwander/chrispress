@@ -1,0 +1,103 @@
+// Typography
+* {
+  font-family: $font-family;
+}
+
+h1,h2,h3,h4,h5,h6
+.h1,.h2,.h3,.h4,.h5,.h6 {
+  color: $night;
+  font-family: $font-family;
+  font-weight: bold;
+  font-style: normal;
+
+  i {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+h1,
+.h1 {
+    font-size: $h1-font-size;
+    margin: $h1-font-margin;
+
+    i {
+      font-size: $h2-font-size;
+    }
+}
+h2,
+.h2 {
+    font-size: $h2-font-size;
+    margin: $h2-font-margin;
+
+    i {
+      font-size: $h3-font-size
+    }
+}
+h3,
+.h3 {
+    font-size: $h3-font-size;
+    margin: $h3-font-margin;
+
+    i {
+      font-size: $h4-font-size
+    }
+}
+h4,
+.h4 {
+    font-size: $h4-font-size;
+    margin: $h4-font-margin;
+
+    i {
+      font-size: $h5-font-size
+    }
+}
+h5,
+.h5 {
+    font-size: $h5-font-size;
+    margin: $h5-font-margin;
+
+    i {
+      font-size: $h6-font-size
+    }
+}
+h6,
+.h6 {
+    font-size: $h6-font-size;
+    font-weight: normal;
+    margin: $h6-font-margin;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+
+    i {
+      font-size: $h6-font-size
+    }
+}
+
+p,
+.p {
+  font-size: $font-size;
+  font-weight: 300;
+  color: $night;
+  font-family: $font-family;
+  margin: $p-font-margin;
+
+  i {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+a {
+  font-family: $font-family;
+}
+
+// Helpers
+
+.left {
+  text-align: left !important;
+}
+
+.right {
+  text-align: right !important;
+}

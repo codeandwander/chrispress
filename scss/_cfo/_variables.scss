@@ -1,0 +1,64 @@
+$ghost: #FFFFFF;
+$shade: rgba(180,205,230,0.25);
+$wash: #D9E3ED;
+$pastel: #95B1CE;
+$burst: #FF512F;
+$vivid: #DD2476;
+$link: #FF2D7D;
+$night: #3B3B3B;
+$jet: #000000;
+
+
+$container-width: 90%;
+$container-max-width: 1024px;
+
+
+$font-family: 'Apercu', sans-serif;
+
+// Sizes
+$vsmall-font-size: 12px;
+$small-font-size: 14px;
+$font-size: 16px;
+
+
+// Headings
+$h1-font-size: 48px;
+$h2-font-size: 36px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+$h6-font-size: 16px;
+
+$h1-font-margin: 0 0 1.25rem 0;
+$h2-font-margin: 0 0 1rem 0;
+$h3-font-margin: 0 0 0.2rem 0;
+$h4-font-margin: 0 0 0.2rem 0;
+$h5-font-margin: 0 0 0.3rem 0;
+$h6-font-margin: 0 0 0.3rem 0;
+$p-font-margin: 0 0 0.2rem 0;
+
+
+//Buttons
+$btn-padding: 20px 20px;
+$btn-margin: 0 0 12px 0;
+$btn-font-size: 16px;
+$btn-height: 48px;
+$color-btn-background-color: linear-gradient(90deg, $burst 0%, $vivid 100%);
+$color-btn-background-color-hover: linear-gradient(90deg, $burst 0%, $vivid 100%);
+$color-btn-border: none;
+$btn-background-color: $ghost;
+$btn-background-color-hover: $ghost;
+$btn-border: 1px solid $wash;
+$btn-border-radius: 5px;
+$btn-box-shadow: none;
+$btn-box-shadow-hover: 0 5px 10px 0 $shade;
+
+
+$input-padding: 20px 10px;
+$input-margin: 0px;
+$input-font-size: 16px;
+$input-height: 48px;
+$input-background-color: $ghost;
+$input-border: 1px solid $wash;
+$input-border-radius: 5px;
+$input-box-shadow: none;
